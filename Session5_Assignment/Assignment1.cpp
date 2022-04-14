@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(){
 	
-	int n,tb;
+	int n;
+	float tb;
 	printf("Nhap so: ");
 	scanf("%d",&n);
 	int m[n];
@@ -17,8 +18,8 @@ int main(){
 				}				
 				c++;
 				s+=m[i];
-				tb=s/c;
+				tb=(float)s/c;
 			}
 		}
-		printf("Tb cong cac so le = %d",tb);
+		printf("Tb cong cac so le = %f",tb);
 }
