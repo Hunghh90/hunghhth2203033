@@ -21,5 +21,5 @@ int main(){
 		else
 			s=0;		
 	}
-	printf("chuoi so duong dai nhat la %d",sm);
+	printf("tong chuoi so duong dai nhat la %d",sm);
 }
